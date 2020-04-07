@@ -1656,3 +1656,16 @@ b, strong{
     top: 0;
     z-index: 2999;
 }
+
+.widget-image-carousel .widget-inner.carousel:after {
+    background: linear-gradient(-45deg, #fff 16px, transparent 0), linear-gradient(45deg, #fff 16px, transparent 0);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 32px 32px;
+    -webkit-background-size: 32px 32px;
+    -moz-background-size: 32px 32px;
+    -o-background-size: 32px 32px;
+    position: relative;
+    bottom: 27px;
+    z-index: 3000;
+}
