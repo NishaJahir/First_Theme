@@ -73,7 +73,7 @@
 	 -o-background-size: 32px 32px;
 	 position: absolute;
 	 top: 0;
-	 z-index: 2999;
+	 z-index: 999;
 }
  .portfolio_filter:after, .portfolio_filter:before {
 	 content: " ";
