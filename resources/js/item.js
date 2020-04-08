@@ -8,6 +8,8 @@ window.addEventListener('load', function() {
     $('.custom-select').click(function(){
      $('option').css('color','#069399');
   });
+       $('page-home .main').attr('id', '');
+       $('page-home .main').children().removeClass('container-max');
     var bc_contact = $('.bc_contact').clone();
     $('.footer').prepend(bc_contact);
     $('.mainmenu').prepend('<li><a href="/"><i aria-hidden="true" class="fa fa-home"></i> Home</a></li>');
