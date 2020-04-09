@@ -1090,9 +1090,11 @@ h1{
 hr .my-5{
    margin-bottom: 0 !important;
 }
-.widget .widget-image-carousel{
-   z-index:999;
-   margin-top:200px;
+.widget-image-carousel .widget-inner.carousel:before {
+  z-index: 999;	
+}
+.widget-proportional{
+  margin-top: 200px;
 }
 .top-bar {
    background-color:#fff;
