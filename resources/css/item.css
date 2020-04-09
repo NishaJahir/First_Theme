@@ -1061,13 +1061,14 @@
     color: #f47795;
     border: 1px solid #f47795;
 }
+
   #page-body{ 
     max-width: 1260px;
     max-width: 90.75rem;
     background-color: #fff;
     margin: 0 auto;
     width: 100%;
-    margin-top:10px;
+    margin-top:200px;
    box-shadow: 0 0 4px 1px #dadae5; 
 	  margin-bottom:2px;
 }
@@ -1088,6 +1089,10 @@ h1{
 }
 hr .my-5{
    margin-bottom: 0 !important;
+}
+.widget .widget-image-carousel{
+   z-index:999;
+   margin-top:200px;
 }
 .top-bar {
    background-color:#fff;
