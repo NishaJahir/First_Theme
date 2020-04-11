@@ -1360,7 +1360,7 @@ small, .small, .btn-labeled, .basket-preview .totals{
 .bg-white{
        color:unset;
 }
-.page-content.basket, .page-content.checkout, .page-content.contact, .page-content.myaccount{
+.page-content .basket, .page-content .checkout, .page-content .contact, .page-content .myaccount{
   color: #069399 !important;
 }
 .checkout .btn:not(:disabled):not(.disabled), .myaccount .btn:not(:disabled):not(.disabled){
