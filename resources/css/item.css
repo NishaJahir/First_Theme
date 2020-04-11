@@ -1080,6 +1080,11 @@ nav.navbar .container-max>div.row .brand-wrapper {
     text-align: center;
     width: 100%;
 }
+.top-bar .search-shown .controls {
+    position: absolute;
+    top: -60px;
+    right: 0;
+}
 
   #page-body{ 
     max-width: 1260px;
