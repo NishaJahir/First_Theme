@@ -1064,9 +1064,21 @@
 .top-bar .search-shown .always-visible-search { 
    max-width: 270px;
 }
+.top-bar .search-shown .always-visible-search {
+    max-width: 270px;
+    position: absolute;
+    top: -60px;
+}
 nav.navbar .container-max>div.row #mainNavbarCollapsable {
     align-self: flex-end;
     position: absolute;
+	top: 100px;
+}
+nav.navbar .container-max>div.row .brand-wrapper {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
 }
 
   #page-body{ 
