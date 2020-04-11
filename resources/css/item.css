@@ -1090,8 +1090,8 @@ h1{
 hr .my-5{
    margin-bottom: 0 !important;
 }
-.widget-image-carousel .widget-inner.carousel:before {
-  z-index: 999;	
+.widget-image-carousel .widget-inner.carousel:before .widget-inner.carousel:after {
+  z-index: 999 !important;	
 }
 .widget-proportional{
   margin-top: 200px;
