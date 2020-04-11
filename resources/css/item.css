@@ -1090,9 +1090,7 @@ h1{
 hr .my-5{
    margin-bottom: 0 !important;
 }
-.widget-image-carousel .widget-inner.carousel:before .widget-inner.carousel:after {
-  z-index: 999 !important;	
-}
+
 .widget-proportional{
   margin-top: 200px;
 }
@@ -1661,7 +1659,7 @@ b, strong{
     -o-background-size: 32px 32px;
     position: absolute;
     top: 0;
-    z-index: 2999;
+    z-index: 999;
 }
 
 .widget-image-carousel .widget-inner.carousel:after {
@@ -1674,5 +1672,5 @@ b, strong{
     -o-background-size: 32px 32px;
     position: relative;
     bottom: 27px;
-    z-index: 3000;
+    z-index: 999;
 }
