@@ -1061,6 +1061,13 @@
     color: #f47795;
     border: 1px solid #f47795;
 }
+.top-bar .search-shown .always-visible-search { 
+   max-width: 270px;
+}
+nav.navbar .container-max>div.row #mainNavbarCollapsable {
+    align-self: flex-end;
+    position: absolute;
+}
 
   #page-body{ 
     max-width: 1260px;
