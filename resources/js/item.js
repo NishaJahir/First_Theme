@@ -1,8 +1,8 @@
 window.addEventListener('load', function() {
    
     $(document).ready( function() {
-       
        $('.top-bar .header-fw:last-child').addClass('header-new-class');
+       
            var img_src = $('#img_src').val();
        $('.brand-wrapper .img-fluid').attr('src', img_src);
        $("#page-body hr").eq(0).remove();
