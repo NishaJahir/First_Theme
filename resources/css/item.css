@@ -1192,7 +1192,7 @@ hr .my-5{
        background-color: #fff;
        border-bottom: unset;
 }
-.top-bar.fixed-top {
+.page-header .fixed-top {
 	position:static;
 }
 .wrapper-main>nav.container-max {
