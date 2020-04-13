@@ -1061,6 +1061,10 @@
     color: #f47795;
     border: 1px solid #f47795;
 }
+.wrapper-main #page-header{
+	height: 195px;
+	background: white;
+}
 .top-bar .search-shown .always-visible-search { 
    max-width: 270px;
 }
