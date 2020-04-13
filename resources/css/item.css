@@ -1082,6 +1082,9 @@ expanded="true"], .top-bar .controls-list .control-search a[aria-expanded="true"
     max-width: unset;
   }
 }
+ .top-bar .search-shown .always-visible-search {
+    max-width: 270px;
+  }
 
 nav.navbar .container-max>div.row #mainNavbarCollapsable {
     align-self: flex-end;
