@@ -1064,7 +1064,7 @@
 .wrapper-main #page-header{
 	background: white;
 	position:absolute;
-	z-index:9999;
+	
 }
 .top-bar .search-shown .always-visible-search { 
    max-width: 270px;
