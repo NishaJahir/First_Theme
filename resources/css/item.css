@@ -1066,6 +1066,14 @@
 	position:absolute;
 	
 }
+
+.page-header strong {
+    color : white;	
+}
+expanded="true"], .top-bar .controls-list .control-search a[aria-expanded="true"] {
+ background-color: #069399;
+	color: white;
+}
 .top-bar .search-shown .always-visible-search { 
    max-width: 270px;
 }
@@ -1254,8 +1262,8 @@ li .list-inline-item .dropdown .control-languages a:after{
     -webkit-background-size: 32px 32px;
 }
 .bc_contact{
-    margin: 0 auto;
-    padding-top: 3%;
+
+    padding-top: 7%;
    text-align:center;
 	
 }
@@ -1389,8 +1397,11 @@ small, .small, .btn-labeled, .basket-preview .totals{
 .bg-white{
        color:unset;
 }
-.page-content .basket, .page-content .checkout, .page-content .contact, .page-content .myaccount{
+ .page-content .checkout{
   color: #069399 !important;
+}
+.page-content .myaccount {
+	color: unset;
 }
 .checkout .btn:not(:disabled):not(.disabled), .myaccount .btn:not(:disabled):not(.disabled){
     border: 1px solid #dadae5;
