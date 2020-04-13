@@ -1062,8 +1062,9 @@
     border: 1px solid #f47795;
 }
 .wrapper-main #page-header{
-	height: 195px;
 	background: white;
+	position:absolute;
+	z-index:9999;
 }
 .top-bar .search-shown .always-visible-search { 
    max-width: 270px;
@@ -1071,21 +1072,25 @@
 .top-bar .search-shown .always-visible-search {
     max-width: 270px;
     position: absolute;
+	z-index:9999;
     top: 45px;
 }
 nav.navbar .container-max>div.row #mainNavbarCollapsable {
     align-self: flex-end;
     position: absolute;
+	z-index:9999;
 	top: 100px;
 }
 nav.navbar .container-max>div.row .brand-wrapper {
     position: absolute;
+	z-index:9999;
     top: 0;
     text-align: center;
     width: 100%;
 }
 .top-bar .search-shown .controls {
     position: absolute;
+	z-index:9999;
     top: 45px;
     right: 0;
 }
