@@ -1072,25 +1072,22 @@
 .top-bar .search-shown .always-visible-search {
     max-width: 270px;
     position: absolute;
-	z-index:9999;
+	
     top: 45px;
 }
 nav.navbar .container-max>div.row #mainNavbarCollapsable {
     align-self: flex-end;
     position: absolute;
-	z-index:9999;
 	top: 100px;
 }
 nav.navbar .container-max>div.row .brand-wrapper {
     position: absolute;
-	z-index:9999;
     top: 0;
     text-align: center;
     width: 100%;
 }
 .top-bar .search-shown .controls {
     position: absolute;
-	z-index:9999;
     top: 45px;
     right: 0;
 }
