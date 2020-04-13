@@ -2,7 +2,7 @@ window.addEventListener('load', function() {
    
     $(document).ready( function() {
        $('.page-home .main').addClass('mt-5');
-       $('#page-body .main').addClass('mt-5');
+       $('#page-body').addClass('mt-5');
        $('.top-bar:last-child').addClass('header-new-class');
        
            var img_src = $('#img_src').val();
