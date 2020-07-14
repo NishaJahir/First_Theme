@@ -1050,7 +1050,8 @@
 }
 .custom-select{
    color: #069399;
-    border: 1px solid #dadae5;
+    border: 1px solid #dadae5; 
+    
 }
 .custom-select:focus {
     border-color: unset;
@@ -1089,17 +1090,20 @@ expanded="true"], .top-bar .controls-list .control-search a[aria-expanded="true"
 nav.navbar .container-max>div.row #mainNavbarCollapsable {
     align-self: flex-end;
     position: absolute;
-	top: 125%;
+	top: 115%;
 }
 nav.navbar .container-max>div.row .brand-wrapper {
     top: 0;
     text-align: center;
     width: 100%;
 }
+.navbar-toggler {
+   top: 30%;
+}
 
   #page-body{ 
     max-width: 1260px;
-    max-width: 90.75rem;
+    max-width: 83.75rem;
     background-color: #fff;
     margin: 0 auto;
     width: 100%;
@@ -1134,7 +1138,7 @@ hr .my-5{
 }
 
 .top-bar.header-fw.header-new-class {
-    top: -15%;
+    top: -22%;
 }
 .wrapper-main .navbar {
     background-color: transparent;
@@ -1420,7 +1424,8 @@ small, .small, .btn-labeled, .basket-preview .totals{
     border-color: #f47795;
 }
 .navbar-brand img{
-   max-height: unset;	
+   max-height: unset;
+	margin-top: -30px;
 }
 b, strong{
    color:#034c4f;
