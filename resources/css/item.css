@@ -1137,8 +1137,8 @@ hr .my-5{
    background-color: transparent;
 }
 
-.top-bar.header-fw.header-new-class {
-    top: -22%;
+.top-bar.header-fw {
+    top: -25%;
 }
 .wrapper-main .navbar {
     background-color: transparent;
